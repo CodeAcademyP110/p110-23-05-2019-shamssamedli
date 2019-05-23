@@ -1,0 +1,28 @@
+﻿- Tapşırıq 1
+
+  Özəl Kitabxana üçün bir tətbiq yazmalısınız. Kitabxanada kitablar, jurnallar, ensiklopediyalar olacaq.
+  Həm kitablar, həm jurnallar, həm də ensiklopediyaların adı, unikal ISBN nömrəsi, janrı, müəllifi, qiyməti, sayı olmalıdır. 
+  Kitab, jurnal və ya ensiklopediya əlavə edilərkən ISBN yoxlanılmalı və əgər həmin ISBN-li digər biri öncədən varsa,
+  "duplicate ISBN" deyə bir exception qalxmalıdır.
+  Bundan əlavə,
+  hamısında HasDiscount (yəni endirim var yoxsa yox) və DiscountPercent (endirim faizi) deyə property-lər olmalıdır.
+  Hər birində ActualPrice adında bir property olmalıdır və bu property get olunduqda əgər məhsulun endirimi varsa, 
+  məhsulun qiyməti endirim faizinə vurulmalı və qiymət qaytarılmalıdır, endirim yoxdursa, normal qiymət qaytarılmalıdır.
+  
+  Kitabxanada 1 nəfərlik otaqlar olmalıdır. Otaqların adı, unikal 3 rəqəmli nömrələri olmalıdır. Otaqları rezerv etmək olmalıdır.
+  Buna görə də, otaqlarda Rezervasiyaların siyahısı olmalıdır.
+  Rezerv olunarkən hansı otağın, hansı gün rezerv olunmaq istənildiyi bildirilməlidir və əgər həmin gündə rezervasiyası varsa
+  "istənilən gündə rezervasiya mümkün deyil" deyə bir mesaj qaytarılmalıdır. Əgər rezervasiya yoxdursa, rezervasiya həmin otağa
+  əlavə edilməlidir və success mesaj göstərilməlidir.
+
+- Tapşırıq 2
+  Bankda növbə sistemi üçün bir tətbiq yazmalısınız. Növbə yaradılan zaman maksimum növbə sayı bildirilməlidir.
+  Növbəyə yeni bir item əlavə etmək və növbənin əvvəlindən kimisə çıxarmaq mümkün olmalıdır. Həm əlavə edildikdə,
+  həm də çıxarıldıqda uyğun mesaj yazılmalıdır. Əgər növbə maksimum element sayını aşırsa, Exception qaldırılmalıdır.
+  
+
+    
+  
+  
+  
+  
